@@ -1,15 +1,12 @@
-from distutils.core import setup
 
-setup(
-    name='dohttp',
-    version='1.1',
-    packages=[''],
-    url='',
-    license='',
-    author='ben hagen',
-    author_email='',
-    description='',
-    install_requires = [
-                           'requests>=2.23.0',
-                       ],
-)
+from setuptools import setup
+
+setup(name='dohttp',
+      version='1.1',
+      description='simple request function',
+      url='http://github.com/storborg/funniest',
+      author='Ben Hagen',
+      author_email='benhagenhome@gmail.com',
+      license='MIT',
+      packages=['dohttp'],
+      zip_safe=False)
